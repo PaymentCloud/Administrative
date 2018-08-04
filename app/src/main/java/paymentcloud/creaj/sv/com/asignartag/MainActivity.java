@@ -287,6 +287,8 @@ public class MainActivity extends AppCompatActivity implements NFCListener{
 //                                String id = profile.getString("transaction_id");
                                 mEtMessage.setText("Transacción exitosa, se cargaron: "+saldo.toString());
                                 hidepDialog();
+                                Intent i = new Intent(getApplicationContext(),Lottie.class);
+                                startActivity(i);
                             } catch (Exception s){
                                 Log.d("ERROR",s.toString());
                                 hidepDialog();

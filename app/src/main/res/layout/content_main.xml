@@ -6,37 +6,50 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/paymentcloud"
+
     tools:showIn="@layout/activity_main">
 
     <Button
         android:id="@+id/btnleer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         android:layout_gravity="center"
         android:text="Leer"
+        android:textColor="@color/paymentcloud"
 
         android:layout_marginTop="15dp"
+        android:drawableRight="@drawable/busqueda"
+        android:textSize="20dp"
+        android:theme="@style/MyButton"
      />
 
     <Button
         android:id="@+id/btnrecargar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:text="Recargar"
+        android:textColor="@color/paymentcloud"
+        android:textSize="20dp"
+
+        android:drawableRight="@drawable/cartera"
         android:layout_gravity="center"
+        android:theme="@style/MyButton"
      />
 
 
     <Button
         android:id="@+id/btnasignar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Asignar"
+        android:textColor="@color/paymentcloud"
+        android:textSize="20dp"
         android:layout_marginTop="15dp"
-        android:layout_gravity="center"
 
+        android:layout_gravity="center"
+        android:drawableRight="@drawable/carnet"
+        android:theme="@style/MyButton"
     />
 
 
@@ -47,7 +60,8 @@
         android:layout_marginTop="40dp"
         android:layout_gravity="center"
         android:text="Status:"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
 
         />
@@ -56,9 +70,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="22dp"
+        android:textSize="25dp"
         android:gravity="center"
         android:text="Acerque una PaymentTag"
-        android:textColor="@color/white" />
+        android:textColor="@color/black" />
 
 </LinearLayout>

@@ -14,8 +14,6 @@ public class ScanNFCActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scan_nfc);
 
 
-
-
     }
 
 }
