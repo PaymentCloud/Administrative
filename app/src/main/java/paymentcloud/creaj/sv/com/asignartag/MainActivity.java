@@ -476,6 +476,12 @@ public class MainActivity extends AppCompatActivity implements NFCListener{
         if (pDialog.isShowing())
             pDialog.dismiss();
     }
+    public void onBackPressed() {
+        if (Integer.valueOf(Integer.valueOf(0).intValue() + 1).intValue() != 1) {
+            finish();
+        }
+    }
+
 
 
 

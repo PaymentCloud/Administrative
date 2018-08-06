@@ -48,5 +48,13 @@ public class Lottie extends AppCompatActivity {
         mLottieAnimationView = null;
         super.onDestroy();
     }
+
+
+
+    public void onBackPressed() {
+        if (Integer.valueOf(Integer.valueOf(0).intValue() + 1).intValue() != 1) {
+            finish();
+        }
+    }
 }
 
